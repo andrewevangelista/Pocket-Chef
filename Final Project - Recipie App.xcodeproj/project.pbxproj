@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		052876919EC78A4D6FEB0B79 /* Pods_Final_Project___Recipie_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B212BCC6BF8F16E2A3510B8A /* Pods_Final_Project___Recipie_App.framework */; };
+		E70348212276332A00185AFA /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70348202276332A00185AFA /* Recipe.swift */; };
 		E73863522269156A00DDEEDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73863512269156A00DDEEDE /* AppDelegate.swift */; };
 		E73863542269156A00DDEEDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73863532269156A00DDEEDE /* ViewController.swift */; };
 		E73863572269156A00DDEEDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73863552269156A00DDEEDE /* Main.storyboard */; };
 		E73863592269156C00DDEEDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73863582269156C00DDEEDE /* Assets.xcassets */; };
 		E738635C2269156C00DDEEDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E738635A2269156C00DDEEDE /* LaunchScreen.storyboard */; };
+		E75A19D52276256100A94F7E /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75A19D42276256100A94F7E /* StartViewController.swift */; };
+		E7848CDA2276BC2100A9B538 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7848CD92276BC2100A9B538 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		011F67B959DB03BC9E42C8BC /* Pods-Final Project - Recipie App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final Project - Recipie App.debug.xcconfig"; path = "Target Support Files/Pods-Final Project - Recipie App/Pods-Final Project - Recipie App.debug.xcconfig"; sourceTree = "<group>"; };
+		9302AC5E914451BAE8B88CF3 /* Pods-Final Project - Recipie App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final Project - Recipie App.release.xcconfig"; path = "Target Support Files/Pods-Final Project - Recipie App/Pods-Final Project - Recipie App.release.xcconfig"; sourceTree = "<group>"; };
+		B212BCC6BF8F16E2A3510B8A /* Pods_Final_Project___Recipie_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Final_Project___Recipie_App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70348202276332A00185AFA /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		E738634E2269156A00DDEEDE /* Final Project - Recipie App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project - Recipie App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73863512269156A00DDEEDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E73863532269156A00DDEEDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,8 @@
 		E73863582269156C00DDEEDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E738635B2269156C00DDEEDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E738635D2269156C00DDEEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E75A19D42276256100A94F7E /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		E7848CD92276BC2100A9B538 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				052876919EC78A4D6FEB0B79 /* Pods_Final_Project___Recipie_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		061643E8D47E8FE04B6E0D20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				011F67B959DB03BC9E42C8BC /* Pods-Final Project - Recipie App.debug.xcconfig */,
+				9302AC5E914451BAE8B88CF3 /* Pods-Final Project - Recipie App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8BD51666D30DEB3B301FD822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B212BCC6BF8F16E2A3510B8A /* Pods_Final_Project___Recipie_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E73863452269156A00DDEEDE = {
 			isa = PBXGroup;
 			children = (
 				E73863502269156A00DDEEDE /* Final Project - Recipie App */,
 				E738634F2269156A00DDEEDE /* Products */,
+				061643E8D47E8FE04B6E0D20 /* Pods */,
+				8BD51666D30DEB3B301FD822 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +87,9 @@
 				E73863512269156A00DDEEDE /* AppDelegate.swift */,
 				E73863532269156A00DDEEDE /* ViewController.swift */,
 				E73863552269156A00DDEEDE /* Main.storyboard */,
+				E7848CD92276BC2100A9B538 /* DetailViewController.swift */,
+				E70348202276332A00185AFA /* Recipe.swift */,
+				E75A19D42276256100A94F7E /* StartViewController.swift */,
 				E73863582269156C00DDEEDE /* Assets.xcassets */,
 				E738635A2269156C00DDEEDE /* LaunchScreen.storyboard */,
 				E738635D2269156C00DDEEDE /* Info.plist */,
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E73863602269156C00DDEEDE /* Build configuration list for PBXNativeTarget "Final Project - Recipie App" */;
 			buildPhases = (
+				C6198326F277D28CA7FF4FEF /* [CP] Check Pods Manifest.lock */,
 				E738634A2269156A00DDEEDE /* Sources */,
 				E738634B2269156A00DDEEDE /* Frameworks */,
 				E738634C2269156A00DDEEDE /* Resources */,
+				FBAD092C2FF59460FB3F0803 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,6 +165,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C6198326F277D28CA7FF4FEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Final Project - Recipie App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBAD092C2FF59460FB3F0803 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Final Project - Recipie App/Pods-Final Project - Recipie App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Final Project - Recipie App/Pods-Final Project - Recipie App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E738634A2269156A00DDEEDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -137,6 +221,9 @@
 			files = (
 				E73863542269156A00DDEEDE /* ViewController.swift in Sources */,
 				E73863522269156A00DDEEDE /* AppDelegate.swift in Sources */,
+				E7848CDA2276BC2100A9B538 /* DetailViewController.swift in Sources */,
+				E75A19D52276256100A94F7E /* StartViewController.swift in Sources */,
+				E70348212276332A00185AFA /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +367,13 @@
 		};
 		E73863612269156C00DDEEDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 011F67B959DB03BC9E42C8BC /* Pods-Final Project - Recipie App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B5NWCHLC3T;
 				INFOPLIST_FILE = "Final Project - Recipie App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +387,13 @@
 		};
 		E73863622269156C00DDEEDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9302AC5E914451BAE8B88CF3 /* Pods-Final Project - Recipie App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B5NWCHLC3T;
 				INFOPLIST_FILE = "Final Project - Recipie App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
